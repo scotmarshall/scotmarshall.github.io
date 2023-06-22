@@ -1,23 +1,69 @@
 {
-    "venues": [
-      {
-        "id": "venue1",
-        "name": "Venue 1",
-        "address": "123 Main Street, City, Country",
-        "summary": "Venue 1 is a modern event space located in the heart of the city. With its versatile layout and state-of-the-art facilities, it is an ideal choice for conferences, exhibitions, and corporate events."
+    "venues": {
+      "memomusichall": {
+        "name": "Memo Music Hall",
+        "address": "St. Kilda",
+        "summary": "Not even COVID could stop St Kilda's beloved Memo Music Hall. The venue kept up appearances by throwing livestreamed gigs week after week. But now that things are back, you can catch some killer shows with their super bill of shows across the coming months. Expect to see everyone including greats The Chantoozies, Henry Wagons, Vanessa Amarossi, and many more."
       },
-      {
-        "id": "venue2",
-        "name": "Venue 2",
-        "address": "456 Elm Avenue, Town, Country",
-        "summary": "Situated in a picturesque location, Venue 2 offers a charming atmosphere for weddings and special occasions. Its elegant architecture, beautiful gardens, and attentive staff ensure an unforgettable experience."
+      "thebendigo": {
+        "name": "The Bendigo Hotel",
+        "address": "Melbourne",
+        "summary": "The Bendigo has been a staple of the Melbourne music scene for a number of years, putting on some awesome shows year after year, featuring rock acts from all around the world. Artists on their way to The Bendigo include The Krugers and Stalker."
       },
-      {
-        "id": "venue3",
-        "name": "Venue 3",
-        "address": "789 Oak Road, City, Country",
-        "summary": "With its spacious halls and cutting-edge audiovisual equipment, Venue 3 is perfect for concerts and performances. The acoustics are exceptional, providing an immersive experience for both artists and audiences."
+      "retreat_hotel_brunswick": {
+        "name": "The Retreat",
+        "address": "St. Kilda",
+        "summary": "Connoisseurs of the best local talent, everyone from the likes of Floodlights, Bones & Jones, Porpoise Spit, Lewis Coleman and more, have stepped into their beloved bandroom."
+      },
+      "brunswickballroomaus": {
+        "name": "The Brunswick Ballroom",
+        "address": "Melbourne",
+        "summary": "One of the finest live music venues in Melbourne, The Brunswick Ballroom is a beautifully refurbished hall in the old Metropolis House building that now hosts some of Melbourne's favourite live acts. The upstairs ballroom, accessed via the dramatic staircase, features superb stained glass domes evoking the work of Australian artist Leonard French, before expanding out onto an open-air balcony that takes in the urban streetscape below and the sights of Melbourne's skyline. It also has the Brunswick Artist's Bar next door, which doubles as a lovely quaint cafe and bakery."
+      },
+      "baropenfitzroy": {
+        "name": "Bar Open",
+        "address": "Fitzroy",
+        "summary": "Bar Open is a Fitzroy legend, a mainstay of Melbourne's live music scene for 24 years that supports a huge array of genres. With art and mural splashed walls and a general decor and clientele that screams `You're in Fitzroy, welcome home`, it's no wonder that Bar Open is one of those venues that people associate with unique Melbourne culture. It has a delightful beer garden, a cozy fireplace, an upper level and an improv night, but you really need to head here to experience the dazzling array of live music for yourself. The treasured venue hosts bands six nights per-week over two stages, and is widely renowned for everything from weekly experimental/improvised gigs (the home of Make It Up Club) to jazz/groove-based genres as well as heavier guitar-based rock (doom, punk, grind core)."
+      },
+      "staygoldmelbourne": {
+        "name": "Stay Gold",
+        "address": "Melbourne",
+        "summary": "Fantastic Sydney Road live music venue Stay Gold is back in the swing of live music with a bunch of sweet shows coming up. Their venue celebrates the glorious punk and emo music of the early noughties with many cool music nights, while they've also got shows from Windwaker, Ironstone and Eye of The Enemy to name a few."
+      },
+      "thenightcat_fitzroy": {
+        "name": "The Night Cat",
+        "address": "Fitzroy",
+        "summary": "The Night Cat give a different vibe to the music-watching experience, the venue featuring a stage that has a 360” view. Now as restrictions have eased even further, the venue has a number of live gigs on the way, featuring everyone from The Beths to Sycco."
+      },
+      "170.russell": {
+        "name": "170 Russell",
+        "address": "Melbourne",
+        "summary": "170 Russell is one of our longest standing venues, having seen a number of great international performers grace its stage over the years. There's some cool acts on their way in 2022, Cory Henry, Broods, and many more."
+      },
+      "leadbeaterhotel": {
+        "name": "The Leadbeater Hotel",
+        "address": "Richmond",
+        "summary": "Richmond's emerging live music haunt The Leadbeater Hotel only opened late 2019 but they're certainly put their best foot forward during these tough times and put on a bunch of great gigs."
+	  },
+      "cornerhotel": {
+        "name": "The Corner Hotel",
+        "address": "Richmond",
+        "summary": "You can't have a list of venues without mentioning The Corner. We've all been stuck behind the iconic pole, and enjoyed some great music from bands local and international. The venue always pulls some of the best acts to grace Melbourne stages, national and international."
+      },
+      "maxwattsvenue": {
+        "name": "Max Watt's House of Music",
+        "address": "Melbourne",
+        "summary": "Max Watt's loves putting on shows that can appeal to all types of people - whether you like High School Musical, Haiku Hands or the sounds of Ibiza Nightclubs, Max Watts will have a show for you."
+      },
+      "openstudiobar": {
+        "name": "Open Studio",
+        "address": "Melbourne",
+        "summary": "Northcote's Open Studio is full of live music as it brings some of Melbourne's brightest music talents to its space. There's more where that came from with heaps of gigs booked over the coming months."
+      },
+      "00": {
+        "name": "x",
+        "address": "Melbourne",
+        "summary": "0"
       }
-    ]
-  }
-  
+	}
+}
