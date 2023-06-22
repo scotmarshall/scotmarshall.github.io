@@ -1,0 +1,23 @@
+{
+    "venues": [
+      {
+        "id": "venue1",
+        "name": "Venue 1",
+        "address": "123 Main Street, City, Country",
+        "summary": "Venue 1 is a modern event space located in the heart of the city. With its versatile layout and state-of-the-art facilities, it is an ideal choice for conferences, exhibitions, and corporate events."
+      },
+      {
+        "id": "venue2",
+        "name": "Venue 2",
+        "address": "456 Elm Avenue, Town, Country",
+        "summary": "Situated in a picturesque location, Venue 2 offers a charming atmosphere for weddings and special occasions. Its elegant architecture, beautiful gardens, and attentive staff ensure an unforgettable experience."
+      },
+      {
+        "id": "venue3",
+        "name": "Venue 3",
+        "address": "789 Oak Road, City, Country",
+        "summary": "With its spacious halls and cutting-edge audiovisual equipment, Venue 3 is perfect for concerts and performances. The acoustics are exceptional, providing an immersive experience for both artists and audiences."
+      }
+    ]
+  }
+  
