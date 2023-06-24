@@ -1,28 +1,12 @@
 {
     "gigs" : [
       {
-        "title": "Biophilia",
+        "title": "FLYING DUTCHMEN LIVE MUSIC",
         "artist": [
-          "Björk"
+          "FLYING DUTCHMEN", "SCARNON", "Split the Sun"
         ],
-        "venue": "cornerhotel",
-        "date": "2019-02-03T20:00:00"
-      },
-      {
-        "title": "Lateralus",
-        "artist": [
-          "Tool"
-        ],
-        "venue": "baropenfitzroy",
-        "date": "2020-03-03T22:00:00"
-      },
-      {
-        "title": "Magic Tour",
-        "artist": [
-          "Sigur Ros"
-        ],
-        "venue": "staygoldmelbourne",
-        "date": "2022-06-03T21:00:00"
+        "venue": "mammachens",
+        "date": "2023-06-24T19:30:00"
       }
     ],
     "venues": {
@@ -170,6 +154,11 @@
         "name": "The Tote",
         "address": "67-71 Johnston St, Collingwood VIC 3066",
         "summary": "Melbourne rock kingdom The Tote is back up and firing in the live music space. This spot is dedicated to putting on some hard rocking shows featuring some of Melbourne's coolest new acts. Groups like Fan Haus, Teenage Joans, and many more are on their way to The Tote."
+      },
+      "mammachens": {
+        "name": "Mamma Chen's",
+        "address": "42A Albert St, Footscray VIC 3011",
+        "summary": "Embracing artistic risk taking and championing equity and diversity; our focussed vision is access for all - providing warmth and physically safe spaces to share, engage and perform. We focus on our communities, our artists, listening to their needs to genuinely encourage growth. Diversity is paramount to our space, celebrating eclectic difference and multiplicity. We are a part of your journey, we are a fellow friend."
       }
 	}
 }
