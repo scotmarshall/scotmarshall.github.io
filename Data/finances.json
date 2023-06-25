@@ -1,0 +1,22 @@
+{
+    "personalFinanceData": {
+      "income": {
+        "salary": 5000,
+        "bonus": 1000,
+        "other": 500
+      },
+      "debts": {
+        "creditCard": 2000,
+        "studentLoan": 5000,
+        "mortgage": 100000
+      },
+      "expenses": {
+        "rent": 1000,
+        "utilities": 200,
+        "groceries": 300,
+        "entertainment": 100,
+        "transportation": 150
+      }
+    }
+  }
+  
