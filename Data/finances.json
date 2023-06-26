@@ -1,21 +1,22 @@
 {
     "personalFinanceData": {
       "income": {
-        "salary": 5000,
-        "bonus": 1000,
-        "other": 500
+        "salary": 20250,
+        "bonus": 0,
+        "other": 0
       },
       "debts": {
-        "creditCard": 2000,
-        "studentLoan": 5000,
-        "mortgage": 100000
+        "creditCard": 0,
+        "centrelink": 2975,
+        "studentLoan": 50000,
+        "mortgage": 0
       },
       "expenses": {
-        "rent": 1000,
-        "utilities": 200,
+        "rent": 0,
+        "utilities": 0,
         "groceries": 300,
         "entertainment": 100,
-        "transportation": 150
+        "transportation": 50
       }
     }
   }
