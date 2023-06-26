@@ -2,10 +2,87 @@
 <html>
 <head>
   <title>Personal Finance Data</title>
+    
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+      body {
+          margin: 20px;
+      }
+
+      h1 {
+          color: #333;
+      }
+
+      .section {
+          margin-bottom: 20px;
+      }
+
+      .section h2 {
+          color: #777;
+          margin-bottom: 5px;
+      }
+
+      .section ul {
+          list-style-type: none;
+          padding-left: 0;
+          margin-top: 0;
+      }
+
+      .section li {
+          margin-bottom: 5px;
+      }
+
+      .section .title {
+          font-weight: bold;
+      }
+  </style>
 </head>
 <body>
   <div id="financeData"></div>
 
-  <script src="script.js"></script>
+  <script>
+    fetch('./js/financeData.json')
+      .then(response => response.json())
+      .then(data => {
+        displayFinanceData(data.personalFinanceData);
+      })
+      .catch(error => console.error('Error:', error));
+
+    function displayFinanceData(data) {
+        var financeDataElement = document.getElementById('financeData');
+        var html = '';
+      
+        html += '<h1>Income</h1>';
+        html += '<ul>';
+        for (var incomeType in data.income) {
+          html += '<li>' + incomeType + ': $' + data.income[incomeType] + '</li>';
+        }
+        html += '</ul>';
+      
+        html += '<h1>Debts</h1>';
+        html += '<ul>';
+        for (var debtType in data.debts) {
+          html += '<li>' + debtType + ': $' + data.debts[debtType] + '</li>';
+        }
+        html += '</ul>';
+      
+        html += '<h1>Expenses</h1>';
+        html += '<ul>';
+        for (var expenseType in data.expenses) {
+          html += '<li>' + expenseType + ': $' + data.expenses[expenseType] + '</li>';
+        }
+        html += '</ul>';
+      
+        financeDataElement.innerHTML = html;
+    }
+  
+  </script>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
