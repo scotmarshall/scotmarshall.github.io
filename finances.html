@@ -43,7 +43,7 @@
   <div id="financeData"></div>
 
   <script>
-    fetch('./js/financeData.json')
+    fetch('./assets/financeData.json')
       .then(response => response.json())
       .then(data => {
         displayFinanceData(data.personalFinanceData);
